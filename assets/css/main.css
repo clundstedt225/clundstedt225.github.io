@@ -1609,7 +1609,10 @@ input, select, textarea {
 	button,
 	.button {
 		-webkit-appearance: none;
-		display: inline-block;
+		display: block;
+		width:100px;
+		height: 25px;
+		margin:0 auto;
 		text-decoration: none;
 		cursor: pointer;
 		border: 0;
@@ -1688,6 +1691,13 @@ input, select, textarea {
 		}
 
 /* Image */
+	.imagecenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 50%;
+	}
 
 	.image {
 		display: inline-block;
