@@ -1691,6 +1691,25 @@ input, select, textarea {
 		}
 
 /* Image */
+	.videocenter{
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+	}
+
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+	  }
+	  .videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 8%;
+		width: 85%;
+		height: 85%;
+	  }
+
 	.imagecenter {
 		display: block;
 		margin-left: auto;
