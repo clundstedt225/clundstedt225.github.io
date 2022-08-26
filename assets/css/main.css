@@ -1609,10 +1609,7 @@ input, select, textarea {
 	button,
 	.button {
 		-webkit-appearance: none;
-		display: block;
-		width:100px;
-		height: 25px;
-		margin:0 auto;
+		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
 		border: 0;
@@ -1652,6 +1649,17 @@ input, select, textarea {
 		button.alt,
 		.button.alt {
 			background: #252122;
+		}
+
+		/* added this for project page buttons */
+		input[type="button"].mid,
+		input[type="submit"].mid,
+		input[type="reset"].mid,
+		button.mid,
+		.button.mid {
+			display: block;
+			margin: auto;
+			width: 20%;
 		}
 
 			input[type="button"].alt:hover,
