@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<style>
+			p {text-align: center;}
+			h1 {text-align: center;}
+			h2 {text-align: center;}
+			h3 {text-align: center;}
+		</style>
+
+		<title>Connor L. Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+					<h1><a href="index.html">Connor Lundstedt</a></h1>
+					<h2><p>Game Programming Portfolio</p></h2>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<li><a href="asteroids.html">C# Asteroids</a></li>
+									<li><a href="slicedice.html">Slice & Dice</a></li>
+									<li><a href="forgottnworlds.html">Forgotten Worlds</a></li>
+									<li><a href="faceworlds.html">Facing Worlds Remake</a></li>
+									<li><a href="rocketjump.html">Rocket Jump Reload</a></li>
+								</ul>
+							</li>
+							<!-- TODO: RENAMED FOR GUIDING PURPOSES -->
+							<li><a href="about me.html">About Me & Contact Info</a></li>
+							<!-- <li><a href="right-sidebar.html">Right Sidebar</a></li> -->
+							<!-- <li><a href="no-sidebar.html">No Sidebar</a></li> -->
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<!-- <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
+								<header>
+									<h2>C++ Networked Text Dungeon Game</h2>
+									<p>Team Project - (2 Person)</p>
+								</header>	
+
+
+									<div class="videoWrapper">
+										<iframe width="560" height="349" src="https://www.youtube.com/embed/zCsmtEhqrlU" allowfullscreen></iframe>
+									</div>								
+
+								
+								
+								<a href="https://github.com/AGGP-NHTI/PrettyRainbowSparkleIsland/tree/master/AG131TeamProject_PuzzleGame(working%20title)" class="button mid">Project Github Page</a>	
+									
+								<section>
+									<br></br>
+
+									<header>
+										<h3>Project Summary</h3>
+									</header>
+									<div class="container">
+										<ul class="myUL">
+										  <li>Project Type: Team (2 Person)</li>
+										  <li>Programming IDE: Microsoft Visual Studio</li>
+										  <li>Language Used: C++</li>
+										  <li>Target Platform: PC - (Windows)</li>
+										</ul>
+									  </div>
+									  
+									  <p> 
+										This was an open ended team project for a Networking class at NHTI. For our project, me and my teammate wanted to try and create a basic text based game using
+										what we had learned that semester about C++ and Sockets. Other teams worked on networked programs of their choosing such as a chat room, or tic-tac-toe
+										 for example. We ended up settling on a dungeon crawler type game where you choose your class, and can run in to various types of enemies.
+									  </p>
+
+									<header>
+										<h3>Development & Challenges</h3>
+									</header>
+									<p> 
+										To reach our project deadline one of us worked on the server code, while the other was responsible for the client-side code. This helped ensure
+										that we worked closely together on how each side of our game communicated with itself. Given that this project was fairly open ended, we also had to work together to design our game both technically and conceptually from scratch. To help us with
+										this we created a flow chart diagram together of the game loop.
+									</p>
+									
+									<img src="images/flow chart cpp.png" alt="" class="imagecenter" />
+									
+									<br></br>
+
+									<p> 
+										Additionally, we opted to use structs to send our data to the server and provide more information. Since we opted to send structs over the network (via C-String), we packed them 
+										on 1-byte alignment to remove any unused padding bytes.
+									</p>
+											
+									<img src="images/packpragma.PNG" alt="" class="imagecenter" />
+
+								</section>					
+							</article>
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-8 col-12-medium">
+						</div>
+						<div class="col-4 col-12-medium">
+
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+
+						</div>
+						<div class="col-4 col-12-medium">
+
+						</div>
+						<div class="col-12">
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; Connor Lundstedt All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
